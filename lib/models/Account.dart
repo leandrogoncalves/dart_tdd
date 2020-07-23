@@ -4,4 +4,15 @@ class Account {
   int account;
   String name;
   int balance;
+
+  @override
+  String toString() => '''
+
+  id: $id
+  agency: $agency
+  account: $account
+  name: $name
+  balance: $balance
+  
+''';
 }
